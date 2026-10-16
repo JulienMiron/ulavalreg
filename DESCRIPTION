@@ -1,0 +1,15 @@
+Package: ulavalreg
+Type: Package
+Title: Données et fonctions du livre « Au-delà de la régression linéaire »
+Version: 0.1.0
+Authors@R: person("Julien", "Miron", email = "julien.miron@mat.ulaval.ca",
+                  role = c("aut", "cre"))
+Description: Jeux de données et petites fonctions utilitaires du livre
+    « Au-delà de la régression linéaire : GLM, régularisation et méthodes
+    non paramétriques » (Université Laval). Le paquet évite de télécharger
+    les fichiers CSV et de gérer les chemins d'accès et l'encodage.
+License: CC BY 4.0
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 4.1.0)
+Imports: stats

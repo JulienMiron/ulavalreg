@@ -1,0 +1,5 @@
+export(vc_n)
+export(hosmer_lemeshow)
+export(residus_groupes)
+export(knn_moy)
+importFrom(stats, residuals, hatvalues, fitted, pchisq)
